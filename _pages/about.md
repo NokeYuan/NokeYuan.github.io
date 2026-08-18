@@ -48,7 +48,7 @@ header:
       <a href="https://ims.utoronto.ca/">Institute of Medical Science</a>, <a href="https://www.utoronto.ca/">University of Toronto</a> &middot; Toronto, Canada<br>
       GPA: 4.0/4.0 &middot; Advisors: Prof. Geoffrey Liu, Dr. Robert Grant<br>
       Research: ML systems for real-time cancer symptom prediction and clinical decision support</td>
-      <td style="text-align: center; vertical-align: middle; padding-bottom: 1.4em;"><a href="https://www.utoronto.ca/"><img src="/images/uoft-horizontal.svg" style="height: 38px; width: auto;"></a></td>
+      <td style="text-align: center; vertical-align: middle; padding-bottom: 1.4em;"><a href="https://www.utoronto.ca/"><img src="/images/uoft-horizontal.png" style="height: 38px; width: auto;"></a></td>
       <td style="text-align: right; vertical-align: middle; white-space: nowrap; padding-bottom: 1.4em;">2022 - present</td>
     </tr>
     <tr>
@@ -61,7 +61,7 @@ header:
     <tr>
       <td style="text-align: left;">HBSc, Double Specialist in Computer Science and Statistics<br>
       <a href="https://web.cs.toronto.edu/">Department of Computer Science</a>, <a href="https://www.utoronto.ca/">University of Toronto</a> (St. George) &middot; Toronto, Canada</td>
-      <td style="text-align: center; vertical-align: middle;"><a href="https://www.utoronto.ca/"><img src="/images/uoft-horizontal.svg" style="height: 38px; width: auto;"></a></td>
+      <td style="text-align: center; vertical-align: middle;"><a href="https://www.utoronto.ca/"><img src="/images/uoft-horizontal.png" style="height: 38px; width: auto;"></a></td>
       <td style="text-align: right; vertical-align: middle; white-space: nowrap;">2015 - 2019</td>
     </tr>
   </tbody>
