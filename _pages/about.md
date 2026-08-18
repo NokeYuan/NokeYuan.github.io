@@ -79,7 +79,7 @@ header:
 
 <div class="pub-list">
   <div class="pub-card" id="pub-jco-cci-2025">
-    <div class="pub-num"><b>3.&nbsp;&nbsp;&nbsp;</b></div>
+    <div class="pub-num"><b>7.&nbsp;&nbsp;&nbsp;</b></div>
     <div class="pub-date"><b>2025</b></div>
     <div class="pub-content">
       <b>Development of Machine Learning Systems to Predict Cancer-Related Symptoms With Validation Across a Health Care System</b>
@@ -93,6 +93,62 @@ header:
     </div>
     <div class="pub-arrow"></div>
     <div class="pub-summary"><b>Tl;dr</b>: <br>Machine learning systems predicting cancer-related symptoms, validated across a health care system of 82 cancer centers (12K+ patients, 77K+ treatments), achieving AUROC 0.66&ndash;0.73 across 9 symptoms.</div>
+  </div>
+
+  <div class="pub-card">
+    <div class="pub-num"><b>6.&nbsp;&nbsp;&nbsp;</b></div>
+    <div class="pub-date"><b>2025</b></div>
+    <div class="pub-content">
+      <b>Prompting Large Language Models to Predict Adverse Events during Cancer Treatment</b>
+      <br>W.I.T. Uy, G.A.G. Conchas, J.C. He, M. Kabir, <span style="color:#3b7ea1"><b>Baijiang Yuan</b></span>, G. Liu, S. Narine, M. Powis, B. Grant, M. Welch, T. Truong, R. Grant<br>
+      <i>Clinical Cancer Research, 31(13_Supplement):B012</i>
+      <br>
+      <p style="margin:0.5em;"></p>
+      <a class="btn btn--primary" target="_blank" href="https://aacrjournals.org/clincancerres/article/31/13_Supplement/B012/763265" role="button" style="text-decoration:none">Paper</a>
+      <br>
+    </div>
+  </div>
+
+  <div class="pub-card">
+    <div class="pub-num"><b>5.&nbsp;&nbsp;&nbsp;</b></div>
+    <div class="pub-date"><b>2025</b></div>
+    <div class="pub-content">
+      <b>Jarvais: A Modular Framework to Standardize Machine Learning Workflows and Accelerate Reproducible AI in Oncology</b>
+      <br>J. Siraj, M. Kabir, S. Kim, J.C. He, <span style="color:#3b7ea1"><b>Baijiang Yuan</b></span>, W. Uy, T. Patel, B. Grant, S. Narine, M. Krzyzanowska, T. Truong, G. Liu, C. McElcheran, R. Grant, M. Welch<br>
+      <i>Clinical Cancer Research, 31(13_Supplement):B001</i>
+      <br>
+      <p style="margin:0.5em;"></p>
+      <a class="btn btn--primary" target="_blank" href="https://aacrjournals.org/clincancerres/article/31/13_Supplement/B001/763320" role="button" style="text-decoration:none">Paper</a>
+      <br>
+    </div>
+  </div>
+
+  <div class="pub-card">
+    <div class="pub-num"><b>4.&nbsp;&nbsp;&nbsp;</b></div>
+    <div class="pub-date"><b>2024</b></div>
+    <div class="pub-content">
+      <b>Impact of Applying Machine Learning to the Electronic Medical Record on Prediction of Cancer-Associated Thrombosis</b>
+      <br>J.C. He, I. Hirsch, Y. Li, <span style="color:#3b7ea1"><b>Baijiang Yuan</b></span>, M. Kabir, B. Grant, S. Narine, M. Welch, W. Xu, M.K. Krzyzanowska, M.L. Powis, G. Liu, T. Truong, R.C. Grant<br>
+      <i>JCO Oncology Practice, 20(10_suppl):409</i>
+      <br>
+      <p style="margin:0.5em;"></p>
+      <a class="btn btn--primary" target="_blank" href="https://ascopubs.org/doi/abs/10.1200/OP.2024.20.10_suppl.409" role="button" style="text-decoration:none">Paper</a>
+      <br>
+    </div>
+  </div>
+
+  <div class="pub-card">
+    <div class="pub-num"><b>3.&nbsp;&nbsp;&nbsp;</b></div>
+    <div class="pub-date"><b>2024</b></div>
+    <div class="pub-content">
+      <b>Prospective Silent Deployment and Evaluation of an Intelligent Machine Learning Model for Prediction of Emergency Department Visits during Cancer Treatment</b>
+      <br>M. Kabir, J.C. He, <span style="color:#3b7ea1"><b>Baijiang Yuan</b></span>, V. Tran, K. Sue, T. Patel, B. Grant, Y. Li, S. Narine, M. Welch, M.K. Krzyzanowska, T. Truong, G. Liu, R.C. Grant<br>
+      <i>JCO Oncology Practice, 20(10_suppl):407</i>
+      <br>
+      <p style="margin:0.5em;"></p>
+      <a class="btn btn--primary" target="_blank" href="https://ascopubs.org/doi/abs/10.1200/OP.2024.20.10_suppl.407" role="button" style="text-decoration:none">Paper</a>
+      <br>
+    </div>
   </div>
 
   <div class="pub-card">
