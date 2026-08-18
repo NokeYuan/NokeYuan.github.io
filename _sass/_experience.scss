@@ -51,9 +51,8 @@
 
   .logo {
     flex: 0 0 auto;
-    width: auto;
-    height: 2.5rem;
-    max-width: 7rem;
+    width: 7.5rem;
+    height: 3.1rem;
     object-fit: contain;
     background: #fff;
     border-radius: 6px;
@@ -74,8 +73,13 @@
     }
 
     .logo {
-      height: 2.1rem;
-      max-width: 5.5rem;
+      width: 5.5rem;
+      height: 2.2rem;
     }
   }
+}
+
+// Justified prose in page articles (bio paragraphs)
+article > p {
+  text-align: justify;
 }
