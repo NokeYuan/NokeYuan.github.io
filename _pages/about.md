@@ -54,7 +54,7 @@ header:
     <tr>
       <td style="text-align: left; padding-bottom: 1.4em;">MSc, Health Data Science<br>
       <a href="https://www.ucl.ac.uk/population-health-sciences/health-informatics">Institute of Health Informatics</a>, <a href="https://www.ucl.ac.uk/">University College London</a> &middot; London, UK<br>
-      Advisor: <a href="https://profiles.ucl.ac.uk/48846-tom-lumbers">Prof. Tom Lumbers</a> &middot; Focus: computational genomics</td>
+      Advisor: <a href="https://profiles.ucl.ac.uk/48846-tom-lumbers">Prof. Tom Lumbers</a> &middot; Focus: AI in healthcare, clinical data, and computational genomics</td>
       <td style="text-align: center; vertical-align: middle; padding-bottom: 1.4em;"><a href="https://www.ucl.ac.uk/"><img src="/images/ucl.svg" width="100" height="auto"></a></td>
       <td style="text-align: right; vertical-align: middle; white-space: nowrap; padding-bottom: 1.4em;">2020 - 2021</td>
     </tr>
