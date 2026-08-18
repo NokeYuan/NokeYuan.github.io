@@ -45,11 +45,11 @@ header:
   <tbody>
     <tr>
       <td style="text-align: left">PhD, AI in Healthcare</td>
-      <td rowspan="4" style="text-align: center"><a href="https://www.utoronto.ca/"><img src="/images/uoft.png" width="70" height="70"></a>&nbsp;<a href="https://vectorinstitute.ai/"><img src="/images/vector.png" width="100" height="auto"></a></td>
+      <td rowspan="4" style="text-align: center"><a href="https://www.utoronto.ca/"><img src="/images/uoft.png" width="70" height="70"></a></td>
       <td></td>
     </tr>
     <tr>
-      <td style="text-align: left"><a href="https://ims.utoronto.ca/">Institute of Medical Science</a>, <a href="https://www.utoronto.ca/">University of Toronto</a></td>
+      <td style="text-align: left"><a href="https://ims.utoronto.ca/">Institute of Medical Science</a>, <a href="https://www.utoronto.ca/">University of Toronto</a> &middot; Toronto, Canada</td>
       <td>&nbsp;</td>
       <td style="text-align: right">2022 - present</td>
     </tr>
@@ -74,7 +74,7 @@ header:
       <td></td>
     </tr>
     <tr>
-      <td style="text-align: left"><a href="https://www.ucl.ac.uk/">University College London</a> (UCL)</td>
+      <td style="text-align: left"><a href="https://www.ucl.ac.uk/population-health-sciences/health-informatics">Institute of Health Informatics</a>, <a href="https://www.ucl.ac.uk/">University College London</a> &middot; London, UK</td>
       <td>&nbsp;</td>
       <td style="text-align: right">2020 - 2021</td>
     </tr>
@@ -89,7 +89,7 @@ header:
       <td></td>
     </tr>
     <tr>
-      <td style="text-align: left"><a href="https://www.utoronto.ca/">University of Toronto</a></td>
+      <td style="text-align: left"><a href="https://web.cs.toronto.edu/">Department of Computer Science</a>, <a href="https://www.utoronto.ca/">University of Toronto</a> (St. George) &middot; Toronto, Canada</td>
       <td>&nbsp;</td>
       <td style="text-align: right">2015 - 2019</td>
     </tr>
