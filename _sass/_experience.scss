@@ -80,6 +80,7 @@
 }
 
 // Justified prose in page articles (bio paragraphs)
-article > p {
-  text-align: justify;
+.post article p,
+article p {
+  text-align: justify !important;
 }
