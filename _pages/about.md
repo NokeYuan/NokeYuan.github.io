@@ -24,10 +24,10 @@ latest_posts:
   limit: 3
 ---
 
-<div class="contact-links" style="margin-bottom: 1rem;">
-  <a href="https://scholar.google.ca/citations?user=BCUhIHYAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">[Google Scholar]</a>
-  <a href="https://github.com/NokeYuan" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">[GitHub]</a>
-  <a href="https://www.linkedin.com/in/nokeyuan" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">[LinkedIn]</a>
+<div class="contact-links" style="margin-bottom: 1rem; font-size: 1.6rem; display: flex; gap: 0.9rem; align-items: center;">
+  <a href="https://scholar.google.ca/citations?user=BCUhIHYAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" title="Google Scholar" style="text-decoration: none;"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+  <a href="https://github.com/NokeYuan" target="_blank" rel="noopener noreferrer" title="GitHub" style="text-decoration: none;"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+  <a href="https://www.linkedin.com/in/nokeyuan" target="_blank" rel="noopener noreferrer" title="LinkedIn" style="text-decoration: none;"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
 </div>
 
 I'm a PhD candidate at the University of Toronto working on AI in healthcare, advised by [Prof. Geoffrey Liu](https://www.uhncombiel.com/about-the-liu-lab) and [Dr. Robert Grant](https://scholar.google.com/citations?user=JZTeUIYAAAAJ&hl=en). My research lies at the intersection of artificial intelligence and healthcare, spanning clinical machine learning, computational genomics, large language models, and computer vision. I am based at the [Princess Margaret Cancer Centre](https://www.uhn.ca/PrincessMargaret), where I build machine learning systems for real-time cancer symptom prediction and clinical decision support.
