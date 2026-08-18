@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info:
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
 announcements:
@@ -30,7 +30,7 @@ latest_posts:
   <a href="https://www.linkedin.com/in/nokeyuan" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">[LinkedIn]</a>
 </div>
 
-I'm a PhD candidate at the [Institute of Medical Science](https://ims.utoronto.ca/), University of Toronto, advised by [Prof. Geoffrey Liu](https://www.uhncombiel.com/about-the-liu-lab) and [Dr. Robert Grant](https://scholar.google.com/citations?user=JZTeUIYAAAAJ&hl=en). My research develops machine learning systems for real-time cancer symptom prediction and clinical decision support at the [Princess Margaret Cancer Centre](https://www.uhn.ca/PrincessMargaret).
+I'm a PhD candidate at the University of Toronto working on AI in healthcare, advised by [Prof. Geoffrey Liu](https://www.uhncombiel.com/about-the-liu-lab) and [Dr. Robert Grant](https://scholar.google.com/citations?user=JZTeUIYAAAAJ&hl=en). My research lies at the intersection of artificial intelligence and healthcare, spanning clinical machine learning, large language models, and computer vision. At the [Princess Margaret Cancer Centre](https://www.uhn.ca/PrincessMargaret), I build machine learning systems for real-time cancer symptom prediction and clinical decision support — my first-author system (*JCO Clinical Cancer Informatics*, 2025) was validated across 82 cancer centers and deployed prospectively.
 
 I'm currently a [Machine Learning Associate](https://vectorinstitute.ai/research-talent/students/machine-learning-associates/) at the [Vector Institute](https://vectorinstitute.ai/), building a full-stack computer vision system with [Deighton Associates](https://deighton.com/) for automated roadway asset inventory and pavement-condition assessment from dash-cam imagery. Previously, I was a Machine Learning Engineer Intern at the [UHN AI Hub](https://uhnhub.ai/), where I developed [Clinical-Camel-ASR](https://github.com/alif-munim/clinical-camel-asr), an end-to-end medical scribing framework, in collaboration with [WangLab](https://scholar.google.com/citations?user=37FDILIAAAAJ&hl=en) (Dr. Bo Wang) at the University of Toronto, under the supervision of [Dr. Jun Ma](https://scholar.google.com/citations?user=bW1UV4IAAAAJ&hl=en) and [Alif Munim](https://scholar.google.com/citations?user=3XRvwJwAAAAJ&hl=en).
 
