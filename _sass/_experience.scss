@@ -1,0 +1,81 @@
+// Experience / education rows with right-aligned logos,
+// adapted from vahidbalazadeh.me
+.experience-heading {
+  margin-top: 2rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.experience-list {
+  margin-top: 0.5rem;
+}
+
+.experience {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  .dates {
+    flex: 0 0 8.5rem;
+    color: var(--global-text-color-light);
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+
+  .details {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .place {
+    font-weight: 600;
+    color: var(--global-text-color);
+  }
+
+  .role {
+    color: var(--global-theme-color);
+    font-size: 0.95rem;
+  }
+
+  .description {
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+    margin-top: 0.15rem;
+  }
+
+  .logo {
+    flex: 0 0 auto;
+    width: auto;
+    height: 2.5rem;
+    max-width: 7rem;
+    object-fit: contain;
+    background: #fff;
+    border-radius: 6px;
+    padding: 5px 9px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  }
+}
+
+@media (max-width: 576px) {
+  .experience {
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+
+    .dates {
+      flex-basis: 100%;
+      order: -1;
+      font-size: 0.8rem;
+    }
+
+    .logo {
+      height: 2.1rem;
+      max-width: 5.5rem;
+    }
+  }
+}
