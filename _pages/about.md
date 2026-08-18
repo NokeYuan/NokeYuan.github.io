@@ -13,7 +13,7 @@ header:
 --- 
 <div id="bio" class="bio-flex">
   <div class="bio-text">
-    I’m a PhD candidate at the University of Toronto working on AI in healthcare, advised by <a href="https://www.uhncombiel.com/about-the-liu-lab">Prof. Geoffrey Liu</a> and <a href="https://scholar.google.com/citations?user=JZTeUIYAAAAJ&hl=en">Dr. Robert Grant</a>. My research lies at the intersection of artificial intelligence and healthcare — spanning clinical machine learning, large language models, and computer vision — and is based at the <a href="https://www.uhn.ca/PrincessMargaret">Princess Margaret Cancer Centre</a>, where I build machine learning systems for real-time cancer symptom prediction and clinical decision support.<br><br>On the industry side, I’m currently a <a href="https://vectorinstitute.ai/research-talent/students/machine-learning-associates/">Machine Learning Associate</a> at the <a href="https://vectorinstitute.ai/">Vector Institute</a>, building a full-stack computer vision system with <a href="https://deighton.com/">Deighton Associates</a> for automated roadway asset inventory and pavement-condition assessment from dash-cam imagery. Previously, I was a Machine Learning Engineer Intern at the <a href="https://uhnhub.ai/">UHN AI Hub</a>, where I developed <a href="https://github.com/alif-munim/clinical-camel-asr">Clinical-Camel-ASR</a>, an end-to-end medical scribing framework, in collaboration with <a href="https://scholar.google.com/citations?user=37FDILIAAAAJ&hl=en">WangLab</a> (Dr. Bo Wang) at the University of Toronto, under the supervision of <a href="https://scholar.google.com/citations?user=bW1UV4IAAAAJ&hl=en">Dr. Jun Ma</a> and <a href="https://scholar.google.com/citations?user=3XRvwJwAAAAJ&hl=en">Alif Munim</a>.
+    I’m a PhD candidate at the University of Toronto working on AI in healthcare, advised by <a href="https://www.uhncombiel.com/about-the-liu-lab">Prof. Geoffrey Liu</a> and <a href="https://scholar.google.com/citations?user=JZTeUIYAAAAJ&hl=en">Dr. Robert Grant</a>. My research lies at the intersection of artificial intelligence and healthcare — spanning clinical machine learning, large language models, and computer vision — and is based at the <a href="https://www.uhn.ca/PrincessMargaret">Princess Margaret Cancer Centre</a>, where I build machine learning systems for real-time cancer symptom prediction and clinical decision support.<br><br>On the industry side, I’m currently a <a href="https://vectorinstitute.ai/research-talent/students/machine-learning-associates/">Machine Learning Associate</a> at the <a href="https://vectorinstitute.ai/">Vector Institute</a>, building a full-stack computer vision system with <a href="https://deighton.com/">Deighton Associates</a> for automated roadway asset inventory and pavement-condition assessment from dash-cam imagery. Previously, I was a Machine Learning Engineer Intern at the <a href="https://uhnhub.ai/">UHN AI Hub</a>, where we designed and developed <a href="https://github.com/alif-munim/clinical-camel-asr">Clinical-Camel-ASR</a> — an end-to-end medical scribing framework that takes doctor&ndash;patient conversations as input and automatically generates structured clinical summaries. Extending <a href="https://arxiv.org/abs/2305.12031">Clinical Camel</a>, this work was done in collaboration with <a href="https://scholar.google.com/citations?user=37FDILIAAAAJ&hl=en">WangLab</a> (Dr. Bo Wang) at the University of Toronto, under the supervision of <a href="https://scholar.google.com/citations?user=bW1UV4IAAAAJ&hl=en">Dr. Jun Ma</a> and <a href="https://scholar.google.com/citations?user=3XRvwJwAAAAJ&hl=en">Alif Munim</a>.
   </div>
   <div class="bio-logos">
     <a href="https://vectorinstitute.ai/"><img src="/images/vector.png" alt="Vector Institute"></a>
@@ -68,9 +68,9 @@ header:
 
 
 <div style="display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; gap:1em; margin-top:1.5em;">
-  <h2 id="publications" style="margin:0; border:none;">Publications</h2>
+  <h2 id="publications" style="margin:0; border:none;">Selected Publications</h2>
   <span style="font-size:0.9em; color:#555;">
-    <b>8</b> papers · <a href="https://scholar.google.ca/citations?user=BCUhIHYAAAAJ&hl=en" target="_blank" style="color:#3b7ea1; text-decoration:none;"><b>Google Scholar</b></a>
+    <a href="/publications/" style="color:#3b7ea1; text-decoration:none;"><b>Full list (8 papers)</b></a> · <a href="https://scholar.google.ca/citations?user=BCUhIHYAAAAJ&hl=en" target="_blank" style="color:#3b7ea1; text-decoration:none;"><b>Google Scholar</b></a>
   </span>
 </div>
 
@@ -78,7 +78,7 @@ header:
 
 <div class="pub-list">
   <div class="pub-card" id="pub-jco-cci-2025">
-    <div class="pub-num"><b>8.&nbsp;&nbsp;&nbsp;</b></div>
+    <div class="pub-num"><b>3.&nbsp;&nbsp;&nbsp;</b></div>
     <div class="pub-date"><b>2025</b></div>
     <div class="pub-content">
       <b>Development of Machine Learning Systems to Predict Cancer-Related Symptoms With Validation Across a Health Care System</b>
@@ -92,76 +92,6 @@ header:
     </div>
     <div class="pub-arrow"></div>
     <div class="pub-summary"><b>Tl;dr</b>: <br>Machine learning systems predicting cancer-related symptoms, validated across a health care system of 82 cancer centers (12K+ patients, 77K+ treatments), achieving AUROC 0.66&ndash;0.73 across 9 symptoms.</div>
-  </div>
-
-  <div class="pub-card">
-    <div class="pub-num"><b>7.&nbsp;&nbsp;&nbsp;</b></div>
-    <div class="pub-date"><b>2025</b></div>
-    <div class="pub-content">
-      <b>Prompting Large Language Models to Predict Adverse Events during Cancer Treatment</b>
-      <br>W.I.T. Uy, G.A.G. Conchas, J.C. He, M. Kabir, <span style="color:#3b7ea1"><b>Baijiang Yuan</b></span>, G. Liu, S. Narine, M. Powis, B. Grant, M. Welch, T. Truong, R. Grant<br>
-      <i>Clinical Cancer Research, 31(13_Supplement):B012</i>
-      <br>
-      <p style="margin:0.5em;"></p>
-      <a class="btn btn--primary" target="_blank" href="https://aacrjournals.org/clincancerres/article/31/13_Supplement/B012/763265" role="button" style="text-decoration:none">Paper</a>
-      <br>
-    </div>
-  </div>
-
-  <div class="pub-card">
-    <div class="pub-num"><b>6.&nbsp;&nbsp;&nbsp;</b></div>
-    <div class="pub-date"><b>2025</b></div>
-    <div class="pub-content">
-      <b>Jarvais: A Modular Framework to Standardize Machine Learning Workflows and Accelerate Reproducible AI in Oncology</b>
-      <br>J. Siraj, M. Kabir, S. Kim, J.C. He, <span style="color:#3b7ea1"><b>Baijiang Yuan</b></span>, W. Uy, T. Patel, B. Grant, S. Narine, M. Krzyzanowska, T. Truong, G. Liu, C. McElcheran, R. Grant, M. Welch<br>
-      <i>Clinical Cancer Research, 31(13_Supplement):B001</i>
-      <br>
-      <p style="margin:0.5em;"></p>
-      <a class="btn btn--primary" target="_blank" href="https://aacrjournals.org/clincancerres/article/31/13_Supplement/B001/763320" role="button" style="text-decoration:none">Paper</a>
-      <br>
-    </div>
-  </div>
-
-  <div class="pub-card">
-    <div class="pub-num"><b>5.&nbsp;&nbsp;&nbsp;</b></div>
-    <div class="pub-date"><b>2025</b></div>
-    <div class="pub-content">
-      <b>Dynamic Prediction of Cancer-Associated Thrombosis to Guide Prophylactic Anticoagulation</b>
-      <br>J.C. He, H. Alghamni, I. Hirsch, <span style="color:#3b7ea1"><b>Baijiang Yuan</b></span>, M.M. Kabir, G. Liu, M.L. Powis, E. Yeo, P. Gross, B. Grant, S. Narine, M. Welch, T. Truong, R.C. Grant<br>
-      <i>Journal of Clinical Oncology, 43(16_suppl):e13696</i>
-      <br>
-      <p style="margin:0.5em;"></p>
-      <a class="btn btn--primary" target="_blank" href="https://ascopubs.org/doi/abs/10.1200/JCO.2025.43.16_suppl.e13696" role="button" style="text-decoration:none">Paper</a>
-      <br>
-    </div>
-  </div>
-
-  <div class="pub-card">
-    <div class="pub-num"><b>4.&nbsp;&nbsp;&nbsp;</b></div>
-    <div class="pub-date"><b>2024</b></div>
-    <div class="pub-content">
-      <b>Impact of Applying Machine Learning to the Electronic Medical Record on Prediction of Cancer-Associated Thrombosis</b>
-      <br>J.C. He, I. Hirsch, Y. Li, <span style="color:#3b7ea1"><b>Baijiang Yuan</b></span>, M. Kabir, B. Grant, S. Narine, M. Welch, W. Xu, M.K. Krzyzanowska, M.L. Powis, G. Liu, T. Truong, R.C. Grant<br>
-      <i>JCO Oncology Practice, 20(10_suppl):409</i>
-      <br>
-      <p style="margin:0.5em;"></p>
-      <a class="btn btn--primary" target="_blank" href="https://ascopubs.org/doi/abs/10.1200/OP.2024.20.10_suppl.409" role="button" style="text-decoration:none">Paper</a>
-      <br>
-    </div>
-  </div>
-
-  <div class="pub-card">
-    <div class="pub-num"><b>3.&nbsp;&nbsp;&nbsp;</b></div>
-    <div class="pub-date"><b>2024</b></div>
-    <div class="pub-content">
-      <b>Prospective Silent Deployment and Evaluation of an Intelligent Machine Learning Model for Prediction of Emergency Department Visits during Cancer Treatment</b>
-      <br>M. Kabir, J.C. He, <span style="color:#3b7ea1"><b>Baijiang Yuan</b></span>, V. Tran, K. Sue, T. Patel, B. Grant, Y. Li, S. Narine, M. Welch, M.K. Krzyzanowska, T. Truong, G. Liu, R.C. Grant<br>
-      <i>JCO Oncology Practice, 20(10_suppl):407</i>
-      <br>
-      <p style="margin:0.5em;"></p>
-      <a class="btn btn--primary" target="_blank" href="https://ascopubs.org/doi/abs/10.1200/OP.2024.20.10_suppl.407" role="button" style="text-decoration:none">Paper</a>
-      <br>
-    </div>
   </div>
 
   <div class="pub-card">
