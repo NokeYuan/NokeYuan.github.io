@@ -79,7 +79,6 @@ header:
 
 <div class="pub-list">
   <div class="pub-card" id="pub-jco-cci-2025">
-    <div class="pub-num"><b>7.&nbsp;&nbsp;&nbsp;</b></div>
     <div class="pub-date"><b>2025</b></div>
     <div class="pub-content">
       <b>Development of Machine Learning Systems to Predict Cancer-Related Symptoms With Validation Across a Health Care System</b>
@@ -96,7 +95,6 @@ header:
   </div>
 
   <div class="pub-card">
-    <div class="pub-num"><b>6.&nbsp;&nbsp;&nbsp;</b></div>
     <div class="pub-date"><b>2025</b></div>
     <div class="pub-content">
       <b>Prompting Large Language Models to Predict Adverse Events during Cancer Treatment</b>
@@ -110,7 +108,6 @@ header:
   </div>
 
   <div class="pub-card">
-    <div class="pub-num"><b>5.&nbsp;&nbsp;&nbsp;</b></div>
     <div class="pub-date"><b>2025</b></div>
     <div class="pub-content">
       <b>Jarvais: A Modular Framework to Standardize Machine Learning Workflows and Accelerate Reproducible AI in Oncology</b>
@@ -124,7 +121,6 @@ header:
   </div>
 
   <div class="pub-card">
-    <div class="pub-num"><b>4.&nbsp;&nbsp;&nbsp;</b></div>
     <div class="pub-date"><b>2024</b></div>
     <div class="pub-content">
       <b>Impact of Applying Machine Learning to the Electronic Medical Record on Prediction of Cancer-Associated Thrombosis</b>
@@ -138,7 +134,6 @@ header:
   </div>
 
   <div class="pub-card">
-    <div class="pub-num"><b>3.&nbsp;&nbsp;&nbsp;</b></div>
     <div class="pub-date"><b>2024</b></div>
     <div class="pub-content">
       <b>Prospective Silent Deployment and Evaluation of an Intelligent Machine Learning Model for Prediction of Emergency Department Visits during Cancer Treatment</b>
@@ -152,7 +147,6 @@ header:
   </div>
 
   <div class="pub-card">
-    <div class="pub-num"><b>2.&nbsp;&nbsp;&nbsp;</b></div>
     <div class="pub-date"><b>2023</b></div>
     <div class="pub-content">
       <b>Multi-Task Machine Learning of Electronic Medical Records to Predict Future Symptoms in Cancer Patients</b>
@@ -166,7 +160,6 @@ header:
   </div>
 
   <div class="pub-card">
-    <div class="pub-num"><b>1.&nbsp;&nbsp;&nbsp;</b></div>
     <div class="pub-date"><b>2023</b></div>
     <div class="pub-content">
       <b>AIM2REDUCE: Real-Time Early Detection of Undesirable Cancer Events</b>
