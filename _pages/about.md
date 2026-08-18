@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Clinical Machine Learning · LLMs in Healthcare · Computer Vision · Computational Genomics
+subtitle:
 
 profile:
   align: right
@@ -30,7 +30,7 @@ latest_posts:
   <a href="https://www.linkedin.com/in/nokeyuan" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">[LinkedIn]</a>
 </div>
 
-I'm a PhD candidate at the University of Toronto working on AI in healthcare, advised by [Prof. Geoffrey Liu](https://www.uhncombiel.com/about-the-liu-lab) and [Dr. Robert Grant](https://scholar.google.com/citations?user=JZTeUIYAAAAJ&hl=en). My research lies at the intersection of artificial intelligence and healthcare, spanning clinical machine learning, computational genomics, large language models, and computer vision. I am based at the [Princess Margaret Cancer Centre](https://www.uhn.ca/PrincessMargaret), where I build machine learning systems for real-time cancer symptom prediction and clinical decision support. I care about the full life cycle of clinical machine learning: building models, validating them across institutions, and deploying them into real clinical workflows.
+I'm a PhD candidate at the University of Toronto working on AI in healthcare, advised by [Prof. Geoffrey Liu](https://www.uhncombiel.com/about-the-liu-lab) and [Dr. Robert Grant](https://scholar.google.com/citations?user=JZTeUIYAAAAJ&hl=en). My research lies at the intersection of artificial intelligence and healthcare, spanning clinical machine learning, computational genomics, large language models, and computer vision. I am based at the [Princess Margaret Cancer Centre](https://www.uhn.ca/PrincessMargaret), where I build machine learning systems for real-time cancer symptom prediction and clinical decision support.
 
 On the industry side, I'm currently a [Machine Learning Associate](https://vectorinstitute.ai/research-talent/students/machine-learning-associates/) at the [Vector Institute](https://vectorinstitute.ai/), building a full-stack computer vision system with [Deighton Associates](https://deighton.com/) for automated roadway asset assessment from dash-cam imagery. Previously, at the [UHN AI Hub](https://uhnhub.ai/), we designed and developed [Clinical-Camel-ASR](https://github.com/alif-munim/clinical-camel-asr), an end-to-end medical scribing framework that turns doctor–patient conversations into structured clinical summaries. The framework extends [Clinical Camel](https://arxiv.org/abs/2305.12031) and was built in collaboration with [WangLab](https://scholar.google.com/citations?user=37FDILIAAAAJ&hl=en) (Dr. Bo Wang), supervised by [Dr. Jun Ma](https://scholar.google.com/citations?user=bW1UV4IAAAAJ&hl=en) and [Alif Munim](https://scholar.google.com/citations?user=3XRvwJwAAAAJ&hl=en).
 
@@ -44,7 +44,7 @@ A selection of my publications is below; the full list is on the [publications](
     <div class="details">
       <div class="place">Vector Institute</div>
       <div class="role">Machine Learning Associate</div>
-      <div class="description">Training and benchmarking detection models for roadway assets and pavement distress; vision-language models (VLMs) for zero-shot detection; shipped through a full-stack FastAPI + React dashboard.</div>
+      <div class="description">Full-stack computer vision system (FastAPI + React) with Deighton Associates, automating roadway asset inventory and pavement-condition assessment from dash-cam imagery.</div>
     </div>
     <img class="logo" src="/assets/img/vector.png" alt="Vector Institute logo" loading="lazy">
   </div>
@@ -62,7 +62,7 @@ A selection of my publications is below; the full list is on the [publications](
     <div class="details">
       <div class="place">UCL Institute of Health Informatics</div>
       <div class="role">Machine Learning Intern</div>
-      <div class="description">Multi-task YOLO system for detection of age-related macular degeneration from retinal fundus images; CNN-based COVID-19 detection from lung MRI; EHR prognostic models.</div>
+      <div class="description">Multi-task deep learning for detection of age-related macular degeneration from retinal fundus images; CNN-based COVID-19 detection from lung MRI.</div>
     </div>
     <img class="logo" src="/assets/img/ucl.svg" alt="UCL logo" loading="lazy">
   </div>
@@ -85,7 +85,7 @@ A selection of my publications is below; the full list is on the [publications](
     <div class="details">
       <div class="place">University of Toronto</div>
       <div class="role">PhD, AI in Healthcare &middot; <a href="https://ims.utoronto.ca/">Institute of Medical Science</a></div>
-      <div class="description">GPA: 4.0/4.0. Advisors: Prof. Geoffrey Liu, Dr. Robert Grant. Research: multi-task machine learning on EHRs for real-time cancer symptom prediction, validated across 82 cancer centers and deployed prospectively.</div>
+      <div class="description">GPA: 4.0/4.0. Advisors: Prof. Geoffrey Liu, Dr. Robert Grant. Research: ML systems for real-time cancer symptom prediction and clinical decision support.</div>
     </div>
     <img class="logo" src="/assets/img/uoft-horizontal.png" alt="University of Toronto logo" loading="lazy">
   </div>
@@ -94,7 +94,7 @@ A selection of my publications is below; the full list is on the [publications](
     <div class="details">
       <div class="place">University College London</div>
       <div class="role">MSc, Health Data Science &middot; <a href="https://www.ucl.ac.uk/population-health-sciences/health-informatics">Institute of Health Informatics</a></div>
-      <div class="description">Advisor: <a href="https://profiles.ucl.ac.uk/48846-tom-lumbers">Prof. Tom Lumbers</a>. Focus: AI in healthcare, clinical data, and computational genomics. Dissertation: GWAS of plasma volume status as a heart-failure biomarker in UK Biobank (438 significant loci; Mendelian randomization).</div>
+      <div class="description">Advisor: <a href="https://profiles.ucl.ac.uk/48846-tom-lumbers">Prof. Tom Lumbers</a>. Focus: AI in healthcare, clinical data, and computational genomics.</div>
     </div>
     <img class="logo" src="/assets/img/ucl.svg" alt="UCL logo" loading="lazy">
   </div>
@@ -106,28 +106,5 @@ A selection of my publications is below; the full list is on the [publications](
       <div class="description"></div>
     </div>
     <img class="logo" src="/assets/img/uoft-horizontal.png" alt="University of Toronto logo" loading="lazy">
-  </div>
-</div>
-
-<h2 class="experience-heading">Skills</h2>
-
-<div class="experience-list">
-  <div class="experience">
-    <div class="details">
-      <div class="place">Programming</div>
-      <div class="description">Python (PyTorch, TensorFlow, scikit-learn, pandas, NumPy), R, SQL, Git, Linux/Bash</div>
-    </div>
-  </div>
-  <div class="experience">
-    <div class="details">
-      <div class="place">Frameworks</div>
-      <div class="description">Hugging Face, FastAPI, React</div>
-    </div>
-  </div>
-  <div class="experience">
-    <div class="details">
-      <div class="place">Machine Learning</div>
-      <div class="description">Deep learning, large language models, computer vision, medical imaging, statistical analysis</div>
-    </div>
   </div>
 </div>
