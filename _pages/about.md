@@ -94,7 +94,7 @@ A selection of my publications is below — see the [publications](/publications
     <div class="details">
       <div class="place">University College London</div>
       <div class="role">MSc, Health Data Science — <a href="https://www.ucl.ac.uk/population-health-sciences/health-informatics">Institute of Health Informatics</a></div>
-      <div class="description">Advisor: <a href="https://profiles.ucl.ac.uk/48846-tom-lumbers">Prof. Tom Lumbers</a>. Focus: computational genomics.</div>
+      <div class="description">Advisor: <a href="https://profiles.ucl.ac.uk/48846-tom-lumbers">Prof. Tom Lumbers</a>. Focus: AI in healthcare, clinical data, and computational genomics.</div>
     </div>
     <img class="logo" src="/assets/img/ucl.svg" alt="UCL logo" loading="lazy">
   </div>
