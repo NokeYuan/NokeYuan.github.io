@@ -18,6 +18,7 @@ header:
   <div class="bio-logos">
     <a href="https://www.utoronto.ca/"><img src="/images/uoft.png" alt="University of Toronto"></a>
     <a href="https://vectorinstitute.ai/"><img src="/images/vector.png" alt="Vector Institute"></a>
+    <a href="https://www.uhn.ca/"><img src="/images/uhn.svg" alt="University Health Network"></a>
   </div>
 </div>
 <div style="font-size: 0.85em; margin-top: 1.2em; margin-bottom: 1.6em;" class="news-flash">
@@ -69,7 +70,7 @@ header:
     </tr>
     <tr>
       <td style="text-align: left">MSc, Health Data Science</td>
-      <td rowspan="2" style="text-align: center">&nbsp;</td>
+      <td rowspan="2" style="text-align: center"><a href="https://www.ucl.ac.uk/"><img src="/images/ucl.svg" width="110" height="auto"></a></td>
       <td></td>
     </tr>
     <tr>
