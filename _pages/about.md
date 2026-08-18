@@ -13,7 +13,7 @@ header:
 --- 
 <div id="bio" class="bio-flex">
   <div class="bio-text" style="text-align: justify;">
-    I’m a PhD candidate at the University of Toronto working on AI in healthcare, advised by <a href="https://www.uhncombiel.com/about-the-liu-lab">Prof. Geoffrey Liu</a> and <a href="https://scholar.google.com/citations?user=JZTeUIYAAAAJ&hl=en">Dr. Robert Grant</a>. My research lies at the intersection of artificial intelligence and healthcare, spanning clinical machine learning, computational genomics, large language models, and computer vision. I am based at the <a href="https://www.uhn.ca/PrincessMargaret">Princess Margaret Cancer Centre</a>, where I build machine learning systems for real-time cancer symptom prediction and clinical decision support.<br><br>On the industry side, I’m currently a <a href="https://vectorinstitute.ai/research-talent/students/machine-learning-associates/">Machine Learning Associate</a> at the <a href="https://vectorinstitute.ai/">Vector Institute</a>, building a full-stack computer vision system with <a href="https://deighton.com/">Deighton Associates</a> for automated roadway asset assessment from dash-cam imagery. Previously, at the <a href="https://uhnhub.ai/">UHN AI Hub</a>, we designed and developed <a href="https://github.com/alif-munim/clinical-camel-asr">Clinical-Camel-ASR</a>, an end-to-end medical scribing framework that turns doctor&ndash;patient conversations into structured clinical summaries. The framework extends <a href="https://arxiv.org/abs/2305.12031">Clinical Camel</a> and was built in collaboration with <a href="https://scholar.google.com/citations?user=37FDILIAAAAJ&hl=en">WangLab</a> (Dr. Bo Wang), supervised by <a href="https://scholar.google.com/citations?user=bW1UV4IAAAAJ&hl=en">Dr. Jun Ma</a> and <a href="https://scholar.google.com/citations?user=3XRvwJwAAAAJ&hl=en">Alif Munim</a>.
+    I’m a PhD candidate at the University of Toronto working on AI in healthcare, advised by <a href="https://www.uhncombiel.com/about-the-liu-lab">Prof. Geoffrey Liu</a> and <a href="https://scholar.google.com/citations?user=JZTeUIYAAAAJ&hl=en">Dr. Robert Grant</a>. My research lies at the intersection of artificial intelligence and healthcare, spanning clinical machine learning, computational genomics, large language models, and computer vision. I am based at the <a href="https://www.uhn.ca/PrincessMargaret">Princess Margaret Cancer Centre</a>, where I build machine learning systems for real-time cancer symptom prediction and clinical decision support. I care about the full life cycle of clinical machine learning: building models, validating them across institutions, and deploying them into real clinical workflows.<br><br>On the industry side, I’m currently a <a href="https://vectorinstitute.ai/research-talent/students/machine-learning-associates/">Machine Learning Associate</a> at the <a href="https://vectorinstitute.ai/">Vector Institute</a>, building a full-stack computer vision system with <a href="https://deighton.com/">Deighton Associates</a> for automated roadway asset assessment from dash-cam imagery. Previously, at the <a href="https://uhnhub.ai/">UHN AI Hub</a>, we designed and developed <a href="https://github.com/alif-munim/clinical-camel-asr">Clinical-Camel-ASR</a>, an end-to-end medical scribing framework that turns doctor&ndash;patient conversations into structured clinical summaries. The framework extends <a href="https://arxiv.org/abs/2305.12031">Clinical Camel</a> and was built in collaboration with <a href="https://scholar.google.com/citations?user=37FDILIAAAAJ&hl=en">WangLab</a> (Dr. Bo Wang), supervised by <a href="https://scholar.google.com/citations?user=bW1UV4IAAAAJ&hl=en">Dr. Jun Ma</a> and <a href="https://scholar.google.com/citations?user=3XRvwJwAAAAJ&hl=en">Alif Munim</a>.
   </div>
   <div class="bio-logos">
     <a href="https://vectorinstitute.ai/"><img src="/images/vector.png" alt="Vector Institute"></a>
@@ -35,33 +35,36 @@ header:
   </ul>
 </div>
 
-**Current Research Interests**: Machine learning in cancer research, computational genomics, medical imaging, and large language models in healthcare.
+**Current Research Interests**: Clinical machine learning &middot; LLMs in healthcare &middot; Computer vision &middot; Computational genomics
 
 **Contact**: Reach out at [baijiang.yuan@utoronto.ca](mailto:baijiang.yuan@utoronto.ca).
+
+**Tech Stack**: Python (PyTorch, TensorFlow, scikit-learn, pandas, NumPy) &middot; Hugging Face &middot; FastAPI &middot; React &middot; R &middot; SQL &middot; Git &middot; Linux
 
 ## Education
 
 <table>
   <tbody>
     <tr>
-      <td style="text-align: left; padding-bottom: 1.4em;">PhD, AI in Healthcare<br>
+      <td style="text-align: left; padding-right: 2em; padding-bottom: 1.4em;">PhD, AI in Healthcare<br>
       <a href="https://ims.utoronto.ca/">Institute of Medical Science</a>, <a href="https://www.utoronto.ca/">University of Toronto</a> &middot; Toronto, Canada<br>
       GPA: 4.0/4.0 &middot; Advisors: Prof. Geoffrey Liu, Dr. Robert Grant<br>
-      Research: ML systems for real-time cancer symptom prediction and clinical decision support</td>
-      <td style="text-align: center; vertical-align: middle; padding-bottom: 1.4em;"><a href="https://www.utoronto.ca/"><img src="/images/uoft-horizontal.png" style="height: 38px; width: auto;"></a></td>
+      Research: multi-task machine learning on EHRs for real-time cancer symptom prediction, validated across 82 cancer centers and deployed prospectively</td>
+      <td style="text-align: center; vertical-align: middle; padding-right: 1.5em; padding-bottom: 1.4em;"><a href="https://www.utoronto.ca/"><img src="/images/uoft-horizontal.png" style="height: 38px; width: auto;"></a></td>
       <td style="text-align: right; vertical-align: middle; white-space: nowrap; padding-bottom: 1.4em;">2022 - present</td>
     </tr>
     <tr>
-      <td style="text-align: left; padding-bottom: 1.4em;">MSc, Health Data Science<br>
+      <td style="text-align: left; padding-right: 2em; padding-bottom: 1.4em;">MSc, Health Data Science<br>
       <a href="https://www.ucl.ac.uk/population-health-sciences/health-informatics">Institute of Health Informatics</a>, <a href="https://www.ucl.ac.uk/">University College London</a> &middot; London, UK<br>
-      Advisor: <a href="https://profiles.ucl.ac.uk/48846-tom-lumbers">Prof. Tom Lumbers</a> &middot; Focus: AI in healthcare, clinical data, and computational genomics</td>
-      <td style="text-align: center; vertical-align: middle; padding-bottom: 1.4em;"><a href="https://www.ucl.ac.uk/"><img src="/images/ucl.svg" width="100" height="auto"></a></td>
+      Advisor: <a href="https://profiles.ucl.ac.uk/48846-tom-lumbers">Prof. Tom Lumbers</a> &middot; Focus: AI in healthcare, clinical data, and computational genomics<br>
+      Dissertation: GWAS of plasma volume status as a heart-failure biomarker in UK Biobank (438 significant loci; Mendelian randomization)</td>
+      <td style="text-align: center; vertical-align: middle; padding-right: 1.5em; padding-bottom: 1.4em;"><a href="https://www.ucl.ac.uk/"><img src="/images/ucl.svg" width="100" height="auto"></a></td>
       <td style="text-align: right; vertical-align: middle; white-space: nowrap; padding-bottom: 1.4em;">2020 - 2021</td>
     </tr>
     <tr>
-      <td style="text-align: left;">HBSc, Double Specialist in Computer Science and Statistics<br>
+      <td style="text-align: left; padding-right: 2em;">HBSc, Double Specialist in Computer Science and Statistics<br>
       <a href="https://web.cs.toronto.edu/">Department of Computer Science</a>, <a href="https://www.utoronto.ca/">University of Toronto</a> (St. George) &middot; Toronto, Canada</td>
-      <td style="text-align: center; vertical-align: middle;"><a href="https://www.utoronto.ca/"><img src="/images/uoft-horizontal.png" style="height: 38px; width: auto;"></a></td>
+      <td style="text-align: center; vertical-align: middle; padding-right: 1.5em;"><a href="https://www.utoronto.ca/"><img src="/images/uoft-horizontal.png" style="height: 38px; width: auto;"></a></td>
       <td style="text-align: right; vertical-align: middle; white-space: nowrap;">2015 - 2019</td>
     </tr>
   </tbody>
