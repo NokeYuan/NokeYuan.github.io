@@ -13,7 +13,7 @@ header:
 --- 
 <div id="bio" class="bio-flex">
   <div class="bio-text">
-    I’m a PhD candidate at the <a href="https://ims.utoronto.ca/">Institute of Medical Science</a>, University of Toronto, advised by <a href="https://www.uhncombiel.com/about-the-liu-lab">Prof. Geoffrey Liu</a> and <a href="https://scholar.google.com/citations?user=JZTeUIYAAAAJ&hl=en">Dr. Robert Grant</a>. My research develops machine learning systems for real-time cancer symptom prediction and clinical decision support at the <a href="https://www.uhn.ca/PrincessMargaret">Princess Margaret Cancer Centre</a>.<br><br>I’m currently a <a href="https://vectorinstitute.ai/research-talent/students/machine-learning-associates/">Machine Learning Associate</a> at the <a href="https://vectorinstitute.ai/">Vector Institute</a>, building a full-stack computer vision system with <a href="https://deighton.com/">Deighton Associates</a> for automated roadway asset inventory and pavement-condition assessment from dash-cam imagery. Previously, I was a Machine Learning Engineer Intern at the <a href="https://uhnhub.ai/">UHN AI Hub</a>, where I developed <a href="https://github.com/alif-munim/clinical-camel-asr">Clinical-Camel-ASR</a>, an end-to-end medical scribing framework, in collaboration with <a href="https://scholar.google.com/citations?user=37FDILIAAAAJ&hl=en">WangLab</a> (Dr. Bo Wang) at the University of Toronto, under the supervision of <a href="https://scholar.google.com/citations?user=bW1UV4IAAAAJ&hl=en">Dr. Jun Ma</a> and <a href="https://scholar.google.com/citations?user=3XRvwJwAAAAJ&hl=en">Alif Munim</a>.
+    I’m a PhD candidate at the University of Toronto working on AI in healthcare, advised by <a href="https://www.uhncombiel.com/about-the-liu-lab">Prof. Geoffrey Liu</a> and <a href="https://scholar.google.com/citations?user=JZTeUIYAAAAJ&hl=en">Dr. Robert Grant</a>. My research lies at the intersection of artificial intelligence and healthcare, spanning clinical machine learning, large language models, and computer vision. At the <a href="https://www.uhn.ca/PrincessMargaret">Princess Margaret Cancer Centre</a>, I build machine learning systems for real-time cancer symptom prediction and clinical decision support — my first-author system (<i>JCO Clinical Cancer Informatics</i>, 2025) was validated across 82 cancer centers and deployed prospectively.<br><br>I’m currently a <a href="https://vectorinstitute.ai/research-talent/students/machine-learning-associates/">Machine Learning Associate</a> at the <a href="https://vectorinstitute.ai/">Vector Institute</a>, building a full-stack computer vision system with <a href="https://deighton.com/">Deighton Associates</a> for automated roadway asset inventory and pavement-condition assessment from dash-cam imagery. Previously, I was a Machine Learning Engineer Intern at the <a href="https://uhnhub.ai/">UHN AI Hub</a>, where I developed <a href="https://github.com/alif-munim/clinical-camel-asr">Clinical-Camel-ASR</a>, an end-to-end medical scribing framework, in collaboration with <a href="https://scholar.google.com/citations?user=37FDILIAAAAJ&hl=en">WangLab</a> (Dr. Bo Wang) at the University of Toronto, under the supervision of <a href="https://scholar.google.com/citations?user=bW1UV4IAAAAJ&hl=en">Dr. Jun Ma</a> and <a href="https://scholar.google.com/citations?user=3XRvwJwAAAAJ&hl=en">Alif Munim</a>.
   </div>
   <div class="bio-logos">
     <a href="https://vectorinstitute.ai/"><img src="/images/vector.png" alt="Vector Institute"></a>
@@ -44,54 +44,24 @@ header:
 <table>
   <tbody>
     <tr>
-      <td style="text-align: left">PhD, AI in Healthcare</td>
-      <td rowspan="4" style="text-align: center"><a href="https://www.utoronto.ca/"><img src="/images/uoft.png" width="70" height="70"></a></td>
-      <td></td>
+      <td style="text-align: left; padding-bottom: 1.4em;">PhD, AI in Healthcare<br>
+      <a href="https://ims.utoronto.ca/">Institute of Medical Science</a>, <a href="https://www.utoronto.ca/">University of Toronto</a> &middot; Toronto, Canada<br>
+      GPA: 4.0/4.0 &middot; Advisors: Prof. Geoffrey Liu, Dr. Robert Grant<br>
+      Research: ML systems for real-time cancer symptom prediction and clinical decision support</td>
+      <td style="text-align: center; vertical-align: middle; padding-bottom: 1.4em;"><a href="https://www.utoronto.ca/"><img src="/images/uoft.png" width="64" height="64"></a></td>
+      <td style="text-align: right; vertical-align: middle; white-space: nowrap; padding-bottom: 1.4em;">2022 - present</td>
     </tr>
     <tr>
-      <td style="text-align: left"><a href="https://ims.utoronto.ca/">Institute of Medical Science</a>, <a href="https://www.utoronto.ca/">University of Toronto</a> &middot; Toronto, Canada</td>
-      <td>&nbsp;</td>
-      <td style="text-align: right">2022 - present</td>
+      <td style="text-align: left; padding-bottom: 1.4em;">MSc, Health Data Science<br>
+      <a href="https://www.ucl.ac.uk/population-health-sciences/health-informatics">Institute of Health Informatics</a>, <a href="https://www.ucl.ac.uk/">University College London</a> &middot; London, UK</td>
+      <td style="text-align: center; vertical-align: middle; padding-bottom: 1.4em;"><a href="https://www.ucl.ac.uk/"><img src="/images/ucl.svg" width="100" height="auto"></a></td>
+      <td style="text-align: right; vertical-align: middle; white-space: nowrap; padding-bottom: 1.4em;">2020 - 2021</td>
     </tr>
     <tr>
-      <td style="text-align: left">GPA: 4.0/4.0 · Advisors: Prof. Geoffrey Liu, Dr. Robert Grant</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Research: ML systems for real-time cancer symptom prediction and clinical decision support</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">MSc, Health Data Science</td>
-      <td rowspan="2" style="text-align: center"><a href="https://www.ucl.ac.uk/"><img src="/images/ucl.svg" width="110" height="auto"></a></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><a href="https://www.ucl.ac.uk/population-health-sciences/health-informatics">Institute of Health Informatics</a>, <a href="https://www.ucl.ac.uk/">University College London</a> &middot; London, UK</td>
-      <td>&nbsp;</td>
-      <td style="text-align: right">2020 - 2021</td>
-    </tr>
-    <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">HBSc, Computer Science Specialist · Statistics Major</td>
-      <td rowspan="2" style="text-align: center"><a href="https://www.utoronto.ca/"><img src="/images/uoft.png" width="70" height="70"></a></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><a href="https://web.cs.toronto.edu/">Department of Computer Science</a>, <a href="https://www.utoronto.ca/">University of Toronto</a> (St. George) &middot; Toronto, Canada</td>
-      <td>&nbsp;</td>
-      <td style="text-align: right">2015 - 2019</td>
+      <td style="text-align: left;">HBSc, Computer Science Specialist &middot; Statistics Major<br>
+      <a href="https://web.cs.toronto.edu/">Department of Computer Science</a>, <a href="https://www.utoronto.ca/">University of Toronto</a> (St. George) &middot; Toronto, Canada</td>
+      <td style="text-align: center; vertical-align: middle;"><a href="https://www.utoronto.ca/"><img src="/images/uoft.png" width="64" height="64"></a></td>
+      <td style="text-align: right; vertical-align: middle; white-space: nowrap;">2015 - 2019</td>
     </tr>
   </tbody>
 </table>
