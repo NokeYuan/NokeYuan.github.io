@@ -1,0 +1,150 @@
+{% include base_path %}
+
+{% comment %}
+  >>> INLINE SCRIPTS IN THIS FILE MUST USE /* */ COMMENTS, NEVER // <<<
+
+  `_layouts/compress.html` collapses the whole page onto one line, and
+  `compress_html.ignore.envs: development` in _config.yml means it only does so
+  when JEKYLL_ENV is NOT development. `jekyll serve` sets development; GitHub
+  Pages builds as production. So a `//` comment costs nothing locally and, once
+  deployed, comments out every statement after it for the rest of the script —
+  which is one line by then, i.e. all of it. The script dies with a syntax
+  error and the browser falls back to whatever the un-run code was meant to set.
+
+  That is not hypothetical: it silently disabled the phone viewport scaling and
+  the `no-intro` class on the live site while both worked perfectly under
+  `bundle exec jekyll serve`. External files (assets/js/custom.js) are not
+  compressed and may use // freely.
+{% endcomment %}
+
+<meta charset="utf-8">
+
+{% include seo.html %}
+
+<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  /* ======================================================================
+     PHONE SCALE — >>> $PHONE_LAYOUT_WIDTH below is THE phone-size knob. <<<
+
+     Declaring a layout width hands the scaling to the OS: the phone lays the
+     page out at this many CSS pixels and scales the whole rendered result to
+     fit the screen — text, boxes, padding, images, borders, gutters, all by
+     the same factor. That uniformity is the point. A root font-size only
+     moves lengths written in em/rem (this theme's layout CSS is roughly
+     two-thirds px, so text shrank while the boxes did not), and CSS `zoom`
+     is not an option because WebKit cancels it back out of every font size.
+     See the long note in _sass/_custom.scss.
+
+     Bigger number = smaller page. The resulting scale is deviceWidth / this:
+       794 -> 0.495 on a 393pt iPhone (15/16 Pro), i.e. the factor the old
+              `$zoom-mobile: 0.6` x `$global-zoom: 0.825` was aiming for
+       767 -> 0.51  | 600 -> 0.66 | 500 -> 0.79 | 393 -> 1.0 (no shrink)
+
+     794 is deliberately past 768, so phones render the DESKTOP layout shrunk
+     rather than the mobile one: the bio logos sit in their side column instead
+     of stacking, the section strip takes its wider desktop spacing, and blog
+     archives lay out as a grid. Drop below 768 to get the mobile layout back.
+     Crossing that line cannot double-shrink the page — the `phone` class this
+     sets keeps the desktop `zoom` off (see _sass/_custom.scss) — but it does
+     decide which layout you get.
+
+     screen.* rather than innerWidth: this only ever has an effect on real
+     mobile browsers (desktop browsers ignore the viewport meta entirely), and
+     it must keep reading the true device size after the meta has changed what
+     innerWidth reports.
+     ====================================================================== */
+  (function () {
+    var PHONE_LAYOUT_WIDTH = 794;
+
+    var vp = document.querySelector('meta[name=viewport]');
+    var de = document.documentElement;
+    if (!vp || !window.screen) return;
+
+    function apply() {
+      var w = screen.width, h = screen.height;
+      /* Any device narrower than the design width, not just phones: a screen
+         that cannot show 794px at 1:1 gets the page scaled to fit instead of a
+         reflowed layout. A device sitting exactly at 794 scales by 1.0, so the
+         boundary costs nothing. */
+      var phone = Math.min(w, h) <= PHONE_LAYOUT_WIDTH;
+
+      /* The class tracks the DEVICE, not the orientation. CSS `zoom` is
+         unusable on any WebKit phone, and a phone in landscape is wide enough
+         to reach the >=768 desktop bracket on its own — so without this it
+         would pick up `zoom: 0.825` there and render text at full size inside
+         0.825-scale boxes, the same defect the portrait path exists to avoid. */
+      de.classList.toggle('phone', phone);
+
+      /* The layout width, by contrast, is portrait-only: in landscape the
+         screen is already wider than PHONE_LAYOUT_WIDTH, and forcing it would
+         magnify the page rather than shrink it. */
+      vp.setAttribute('content',
+        phone && w <= h ? 'width=' + PHONE_LAYOUT_WIDTH
+                        : 'width=device-width, initial-scale=1.0');
+    }
+
+    apply();
+    window.addEventListener('orientationchange', apply);
+  }());
+</script>
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  /* Suppress intro animations when navigating within the site (not a fresh external load) */
+  try {
+    if (new URL(document.referrer).host === location.host) {
+      document.documentElement.classList.add('no-intro');
+    }
+  } catch(e) {}
+</script>
+
+<!-- Resource hints -->
+<link rel="dns-prefetch" href="https://www.googletagmanager.com">
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+
+<!-- Web fonts: Inter (UI) + Source Serif 4 (prose) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,300..700&display=swap" rel="stylesheet">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+
+{% if page.includes_math_equations %}
+<!-- MathJax v3: LaTeX rendering, loaded only on posts that need it -->
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      tags: 'all'
+    },
+    svg: { fontCache: 'global', scale: 0.85 }
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
+{% endif %}
+
+<script>
+  let theme = sessionStorage.getItem('theme');
+  if(theme === "dark")
+  {
+    sessionStorage.setItem('theme', 'dark');
+    document.querySelector('html').style.filter = 'invert(100%) hue-rotate(180deg)';
+  }
+  else
+  {
+    sessionStorage.setItem('theme', 'light');
+    document.querySelector('html').style.filter = 'invert(0%)';
+  }
+</script>
+
+<meta name="theme-color" content="#2e4a80">
+<meta http-equiv="cleartype" content="on">

@@ -1,0 +1,19 @@
+# Baijiang (Noke) Yuan
+
+> PhD candidate in AI in Healthcare at the University of Toronto and Machine Learning Associate at the Vector Institute, working on machine learning for cancer symptom prediction, clinical decision support, and computer vision.
+
+This is the personal website of Baijiang (Noke) Yuan, covering research, publications, and background in machine learning for healthcare.
+
+## Pages
+
+- [About](https://nokeyuan.github.io/): Biography, education, publications, and contact information.
+- [Sitemap](https://nokeyuan.github.io/sitemap/): Full list of pages on the site.
+
+## Files
+
+- [CV (PDF)](https://nokeyuan.github.io/cv/Baijiang_CV.pdf): Curriculum vitae.
+
+## Feeds
+
+- [Atom feed](https://nokeyuan.github.io/feed.xml): Site-wide feed.
+- [Sitemap XML](https://nokeyuan.github.io/sitemap.xml): Machine-readable sitemap.

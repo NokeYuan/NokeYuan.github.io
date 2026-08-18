@@ -1,0 +1,25 @@
+{% include base_path %}
+
+<!-- start custom head snippets -->
+
+<!-- Only the 180x180 icon is shipped in images/. The eight smaller sizes this
+     template also used to link (57/60/72/76/114/120/144/152) were never added
+     to the repo, so every page load fired eight 404s. They are for iOS 6 and
+     earlier; iOS 7+ scales this one down, so the links are simply dropped
+     rather than the files backfilled. -->
+<link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="{{ base_path }}/images/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="{{ base_path }}/images/android-chrome-512x512.png" sizes="512x512">
+<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="{{ base_path }}/images/site.webmanifest">
+<link rel="mask-icon" href="{{ base_path }}/images/safari-pinned-tab.svg" color="#000000">
+<link rel="shortcut icon" href="/images/favicon.ico">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="{{ base_path }}/images/mstile-144x144.png">
+<meta name="msapplication-config" content="{{ base_path }}/images/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
+
+<!-- end custom head snippets -->
