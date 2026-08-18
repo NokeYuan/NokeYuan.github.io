@@ -30,9 +30,9 @@ latest_posts:
   <a href="https://www.linkedin.com/in/nokeyuan" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">[LinkedIn]</a>
 </div>
 
-I'm a PhD candidate at the [Institute of Medical Science](https://ims.utoronto.ca/), University of Toronto, advised by [Prof. Geoffrey Liu](https://www.pmgenomics.ca/liu-lab/) and [Dr. Robert Grant](https://grantlab.ca/). My research develops machine learning systems for real-time cancer symptom prediction and clinical decision support at the [Princess Margaret Cancer Centre](https://www.uhn.ca/PrincessMargaret).
+I'm a PhD candidate at the [Institute of Medical Science](https://ims.utoronto.ca/), University of Toronto, advised by [Prof. Geoffrey Liu](https://www.uhncombiel.com/about-the-liu-lab) and [Dr. Robert Grant](https://scholar.google.com/citations?user=JZTeUIYAAAAJ&hl=en). My research develops machine learning systems for real-time cancer symptom prediction and clinical decision support at the [Princess Margaret Cancer Centre](https://www.uhn.ca/PrincessMargaret).
 
-I'm currently a Machine Learning Associate at the [Vector Institute](https://vectorinstitute.ai/), building a full-stack computer vision system with [Deighton Associates](https://deighton.com/) for automated roadway asset inventory and pavement-condition assessment from dash-cam imagery. Previously, I was a Machine Learning Engineer Intern at the [UHN](https://www.uhn.ca/) AI Hub, where I developed [Clinical-Camel-ASR](https://v2t.hendao.com/v2t), an end-to-end medical scribing framework, in collaboration with [WangLab](https://wanglab.ai/) at the University of Toronto.
+I'm currently a [Machine Learning Associate](https://vectorinstitute.ai/research-talent/students/machine-learning-associates/) at the [Vector Institute](https://vectorinstitute.ai/), building a full-stack computer vision system with [Deighton Associates](https://deighton.com/) for automated roadway asset inventory and pavement-condition assessment from dash-cam imagery. Previously, I was a Machine Learning Engineer Intern at the [UHN AI Hub](https://uhnhub.ai/), where I developed [Clinical-Camel-ASR](https://github.com/alif-munim/clinical-camel-asr), an end-to-end medical scribing framework, in collaboration with [WangLab](https://scholar.google.com/citations?user=37FDILIAAAAJ&hl=en) (Dr. Bo Wang) at the University of Toronto, under the supervision of [Dr. Jun Ma](https://scholar.google.com/citations?user=bW1UV4IAAAAJ&hl=en) and [Alif Munim](https://scholar.google.com/citations?user=3XRvwJwAAAAJ&hl=en).
 
 My research interests include machine learning in cancer research, computational genomics, medical imaging, and large language models in healthcare. For my publications, please see the [publications](/publications/) page.
 
@@ -96,7 +96,7 @@ My research interests include machine learning in cancer research, computational
       <div class="role">PhD, AI in Healthcare (Institute of Medical Science)</div>
       <div class="description">GPA: 4.0/4.0. Advisors: Prof. Geoffrey Liu, Dr. Robert Grant. Research: ML systems for real-time cancer symptom prediction and clinical decision support.</div>
     </div>
-    <img class="logo" src="/assets/img/uoft.png" alt="University of Toronto logo" loading="lazy">
+    <img class="logo" src="/assets/img/uoft.png" alt="University of Toronto logo" style="height: 3.6rem;" loading="lazy">
   </div>
   <div class="experience">
     <div class="dates">Sep 2020 – Sep 2021</div>
@@ -114,6 +114,6 @@ My research interests include machine learning in cancer research, computational
       <div class="role">HBSc, Computer Science Specialist &amp; Statistics Major</div>
       <div class="description"></div>
     </div>
-    <img class="logo" src="/assets/img/uoft.png" alt="University of Toronto logo" loading="lazy">
+    <img class="logo" src="/assets/img/uoft.png" alt="University of Toronto logo" style="height: 3.6rem;" loading="lazy">
   </div>
 </div>
