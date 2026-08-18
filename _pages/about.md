@@ -87,7 +87,7 @@ A selection of my publications is below; the full list is on the [publications](
       <div class="role">PhD, AI in Healthcare &middot; <a href="https://ims.utoronto.ca/">Institute of Medical Science</a></div>
       <div class="description">GPA: 4.0/4.0. Advisors: Prof. Geoffrey Liu, Dr. Robert Grant. Research: ML systems for real-time cancer symptom prediction and clinical decision support.</div>
     </div>
-    <img class="logo" src="/assets/img/uoft.png" alt="University of Toronto logo" style="height: 3.6rem;" loading="lazy">
+    <img class="logo" src="/assets/img/uoft-horizontal.svg" alt="University of Toronto logo" loading="lazy">
   </div>
   <div class="experience">
     <div class="dates">Sep 2020 – Sep 2021<br><span class="location" style="font-size:0.8rem; color: var(--global-text-color-light);">London, UK</span></div>
@@ -105,6 +105,6 @@ A selection of my publications is below; the full list is on the [publications](
       <div class="role">HBSc, Double Specialist in Computer Science and Statistics &middot; <a href="https://web.cs.toronto.edu/">Department of Computer Science</a> (St. George)</div>
       <div class="description"></div>
     </div>
-    <img class="logo" src="/assets/img/uoft.png" alt="University of Toronto logo" style="height: 3.6rem;" loading="lazy">
+    <img class="logo" src="/assets/img/uoft-horizontal.svg" alt="University of Toronto logo" loading="lazy">
   </div>
 </div>
