@@ -27,6 +27,9 @@ classes: wide
       <a class="btn btn--primary" target="_blank" href="files/yuan2025-jco-cci-symptom-prediction.pdf" role="button" style="text-decoration:none">PDF</a>
       <br>
     </div>
+    <div class="pub-img">
+      <a href="https://doi.org/10.1200/CCI-25-00073"><img src="/images/Papers/jcocci-external-validation.png" style="width:250px; height:auto; margin:0px;"></a>
+    </div>
     <div class="pub-arrow"></div>
     <div class="pub-summary"><b>Tl;dr</b>: <br>Machine learning systems predicting cancer-related symptoms, validated across a health care system of 82 cancer centers (12K+ patients, 77K+ treatments), achieving AUROC 0.66&ndash;0.73 across 9 symptoms.</div>
   </div>
@@ -113,6 +116,9 @@ classes: wide
       <a class="btn btn--primary" target="_blank" href="https://doi.org/10.1200/op.2023.19.11_suppl.587" role="button" style="text-decoration:none">Paper</a>
       <br>
     </div>
+    <div class="pub-img">
+      <a href="https://doi.org/10.1200/op.2023.19.11_suppl.587"><img src="/images/Papers/multitask-performance.png" style="width:250px; height:auto; margin:0px;"></a>
+    </div>
   </div>
 
   <div class="pub-card">
@@ -126,6 +132,9 @@ classes: wide
       <p style="margin:0.5em;"></p>
       <a class="btn btn--primary" target="_blank" href="https://doi.org/10.1200/jco.2023.41.16_suppl.1557" role="button" style="text-decoration:none">Paper</a>
       <br>
+    </div>
+    <div class="pub-img">
+      <a href="https://doi.org/10.1200/jco.2023.41.16_suppl.1557"><img src="/images/Papers/aim2reduce-alarms.png" style="width:250px; height:auto; margin:0px;"></a>
     </div>
     <div class="pub-arrow"></div>
     <div class="pub-summary"><b>Tl;dr</b>: <br>AIM2REDUCE is a real-time prediction system for 30-day symptom deterioration in cancer patients, with high-risk alerts associated with 1.85&ndash;2.66&times; increased emergency department visits.</div>
