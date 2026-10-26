@@ -32,7 +32,7 @@ latest_posts:
 
 I'm a PhD candidate at the University of Toronto working on AI in healthcare, advised by [Prof. Geoffrey Liu](https://www.uhncombiel.com/about-the-liu-lab) and [Dr. Robert Grant](https://scholar.google.com/citations?user=JZTeUIYAAAAJ&hl=en). My research lies at the intersection of artificial intelligence and healthcare, spanning clinical machine learning, computational genomics, large language models, and computer vision. I am based at the [Princess Margaret Cancer Centre](https://www.uhn.ca/PrincessMargaret), where I build machine learning systems for real-time cancer symptom prediction and clinical decision support.
 
-On the industry side, I'm currently a [Machine Learning Associate](https://vectorinstitute.ai/research-talent/students/machine-learning-associates/) at the [Vector Institute](https://vectorinstitute.ai/), building a full-stack computer vision system with [Deighton Associates](https://deighton.com/) for automated roadway asset assessment from dash-cam imagery. Previously, at the [UHN AI Hub](https://uhnhub.ai/), we designed and developed [Clinical-Camel-ASR](https://github.com/alif-munim/clinical-camel-asr), an end-to-end medical scribing framework that turns doctor–patient conversations into structured clinical summaries. The framework extends [Clinical Camel](https://arxiv.org/abs/2305.12031) and was built in collaboration with [WangLab](https://scholar.google.com/citations?user=37FDILIAAAAJ&hl=en) (Dr. Bo Wang), supervised by [Dr. Jun Ma](https://scholar.google.com/citations?user=bW1UV4IAAAAJ&hl=en) and [Alif Munim](https://scholar.google.com/citations?user=3XRvwJwAAAAJ&hl=en).
+On the industry side, I was a [Machine Learning Associate](https://vectorinstitute.ai/research-talent/students/machine-learning-associates/) at the [Vector Institute](https://vectorinstitute.ai/) from April to October 2026, where I built a full-stack computer vision system with [Deighton Associates](https://deighton.com/) for automated roadway asset assessment from dash-cam imagery. Previously, at the [UHN AI Hub](https://uhnhub.ai/), we designed and developed [Clinical-Camel-ASR](https://github.com/alif-munim/clinical-camel-asr), an end-to-end medical scribing framework that turns doctor–patient conversations into structured clinical summaries. The framework extends [Clinical Camel](https://arxiv.org/abs/2305.12031) and was built in collaboration with [WangLab](https://scholar.google.com/citations?user=37FDILIAAAAJ&hl=en) (Dr. Bo Wang), supervised by [Dr. Jun Ma](https://scholar.google.com/citations?user=bW1UV4IAAAAJ&hl=en) and [Alif Munim](https://scholar.google.com/citations?user=3XRvwJwAAAAJ&hl=en).
 
 A selection of my publications is below; the full list is on the [publications](/publications/) page.
 
@@ -40,7 +40,7 @@ A selection of my publications is below; the full list is on the [publications](
 
 <div class="experience-list">
   <div class="experience">
-    <div class="dates">Apr 2026 – Present<br><span class="location" style="font-size:0.8rem; color: var(--global-text-color-light);">Toronto, Canada</span></div>
+    <div class="dates">Apr 2026 – Oct 2026<br><span class="location" style="font-size:0.8rem; color: var(--global-text-color-light);">Toronto, Canada</span></div>
     <div class="details">
       <div class="place">Vector Institute</div>
       <div class="role">Machine Learning Associate</div>
