@@ -1,6 +1,6 @@
 # nokeyuan.github.io
 
-Personal academic homepage of **Baijiang (Noke) Yuan** — PhD candidate in AI in Healthcare at the University of Toronto and Machine Learning Associate at the Vector Institute.
+Personal academic homepage of **Baijiang (Noke) Yuan** — PhD candidate in AI in Healthcare at the University of Toronto and former Machine Learning Associate at the Vector Institute.
 
 Live at [https://nokeyuan.github.io](https://nokeyuan.github.io).
 

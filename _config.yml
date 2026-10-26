@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Baijiang (Noke) Yuan"
 title_separator          : "-"
 name                     : &name "Baijiang (Noke) Yuan"
-description              : &description "PhD candidate in AI in Healthcare at the University of Toronto and Machine Learning Associate at the Vector Institute, working on machine learning for cancer symptom prediction, clinical decision support, and computer vision."
+description              : &description "PhD candidate in AI in Healthcare at the University of Toronto and former Machine Learning Associate at the Vector Institute, working on machine learning for cancer symptom prediction, clinical decision support, and computer vision."
 url                      : https://nokeyuan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "NokeYuan/NokeYuan.github.io"
@@ -83,7 +83,7 @@ analytics:
 author:
   name             : "Baijiang (Noke) Yuan"
   avatar           : "profile_pic.jpg"
-  bio              : "PhD Candidate, AI in Healthcare @ UofT | Machine Learning Associate @ Vector Institute"
+  bio              : "PhD Candidate, AI in Healthcare @ UofT | Former Machine Learning Associate @ Vector Institute"
   location         : "Toronto, Canada"
   employer         :
   pubmed           : 
